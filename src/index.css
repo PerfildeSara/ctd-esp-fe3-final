@@ -12,10 +12,7 @@ code {
     monospace;
 }
 .favButton{
-  background-color: rgba(136, 136, 136, 0.116);
-  padding: 10px;
   border: none;
-  width: 100%;
   cursor: pointer;
 }
 
@@ -25,9 +22,10 @@ h1{
 
 nav{
   display: flex;
-  width: 80vw;
-  justify-content: flex-start;
-  padding: 1rem;
+  width: 20vw;
+
+  justify-content: flex-end;
+  
 }
 
 a{
@@ -45,11 +43,12 @@ footer {
   justify-content: center;
   text-align: center;
   padding: 2rem;
-  position: relative;
+  
   bottom: 0;
-  width: 90%;
+  width: 100%;
   height: 40px;
   margin-top: 2rem;
+  
 }
 
 footer > img{
@@ -64,11 +63,12 @@ footer > p{
 form{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   width: 300px;
   height: 100px;
   margin: 0 auto;
 }
+
 
 .card{
   display: flex;
@@ -78,6 +78,7 @@ form{
   width: 200px;
   padding: 0.5rem 0.5rem 0 0.5rem;
   border: 0.5px solid rgb(136, 136, 136);
+  
 }
 
 .card:hover{
@@ -86,22 +87,26 @@ form{
 
 .card-grid{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   gap: 1rem;
-  width: 90vw;
-  height: auto;
   flex-wrap: wrap;
   margin: 0 auto;
+  gap: 10px;
+}
+.card-grid img{
+width: 200px;
+height: 260px;
 }
 
 table {
  border-collapse: collapse;
     border-spacing: 0;
-    width: 100%;
+    width: 50vw;
+    height: 20vh;
     display: table;
     border: 1px solid #ccc;
-
 }
+
 
 td, th {
   border: 1px solid #dddddd;
@@ -118,5 +123,8 @@ tr:nth-child(even) {
   color: white;
 }
 .dark > a {
-  color: white;
+  color:aqua;
+}
+h2, h3, h4, h5, h6{
+  margin: 0%;
 }
